@@ -1,0 +1,51 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+* {
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: #fafcfd;
+}
+.transition {
+	transition: all .4s ease-in-out;
+}
+img {
+	object-fit: cover;
+}
+.fullScreen {
+  height: calc(100vh - 220px);
+}
+.loading:after {
+  content: " ";
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #6050dc transparent #6050dc transparent;
+  animation: loading 1.2s linear infinite;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
