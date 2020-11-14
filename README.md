@@ -1,4 +1,4 @@
-[![JavaScript Style Guide](https://img.shields.io/badge/Success-brightgreen.svg?style=flat-square&for-the-badge&logo=Verizon)](https://github.com/abouhilalbadr/gemography-challenge.git) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/Success-brightgreen.svg?style=flat-square&for-the-badge&logo=Verizon)](https://github.com/abouhilalbadr/front-end-challenge.git) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
 # Front-end coding challenge
 
 ## Idea of the App
@@ -52,9 +52,9 @@ Here's what each element represents :
 ## Setup
 
 ```
-git clone https://github.com/abouhilalbadr/gemography-challenge.git
+git clone https://github.com/abouhilalbadr/front-end-challenge.git
 
-cd gemography-challenge
+cd front-end-challenge
 
 yarn serve
 ```
