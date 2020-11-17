@@ -1,11 +1,14 @@
 <template>
   <div id="app" class="bg-lightWhite">
     <div class="container">
-      <header class="flex justify-between py-6 lg:py-12 mb-6 lg:mb-12">
+      <header
+        class="flex flex-col lg:flex-row items-center lg:justify-between
+        py-6 lg:py-12 mb-6 lg:mb-12"
+      >
           <img src="@/assets/images/logo.svg" alt="Gemography Challenge"
             class="h-16 px-4"
           >
-          <div class="filters flex items-center relative text-sm">
+          <div class="filters flex items-center relative text-sm mt-6 lg:mt-0">
             <svg
               viewBox="0 0 24 24" width="16" height="16"
               stroke="currentColor" stroke-width="2" fill="none"
